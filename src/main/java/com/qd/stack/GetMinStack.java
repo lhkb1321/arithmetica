@@ -101,32 +101,32 @@ public class GetMinStack {
         GetMinStack getMinStack = new GetMinStack();
 
         getMinStack.push(1);
-        System.err.println("---- min ---- " + getMinStack.getMin());
+        logger.info("---- min ---- " + getMinStack.getMin());
         getMinStack.push(3);
-        System.err.println("---- min ---- " + getMinStack.getMin());
+        logger.info("---- min ---- " + getMinStack.getMin());
         getMinStack.push(4);
-        System.err.println("---- min ---- " + getMinStack.getMin());
+        logger.info("---- min ---- " + getMinStack.getMin());
         getMinStack.push(0);
-        System.err.println("---- min ---- " + getMinStack.getMin());
+        logger.info("---- min ---- " + getMinStack.getMin());
         getMinStack.push(9);
-        System.err.println("---- min ---- " + getMinStack.getMin());
+        logger.info("---- min ---- " + getMinStack.getMin());
         getMinStack.push(-1);
-        System.err.println("---- min ---- " + getMinStack.getMin());
+        logger.info("---- min ---- " + getMinStack.getMin());
 
-        System.err.println("---------------------------- 栈顶清除计划开始 ------------------------------");
+        logger.info("---------------------------- 栈顶清除计划开始 ------------------------------");
 
         getMinStack.pop();
-        System.err.println("---- min ---- " + getMinStack.getMin());
+        logger.info("---- min ---- " + getMinStack.getMin());
         getMinStack.pop();
-        System.err.println("---- min ---- " + getMinStack.getMin());
+        logger.info("---- min ---- " + getMinStack.getMin());
         getMinStack.pop();
-        System.err.println("---- min ---- " + getMinStack.getMin());
+        logger.info("---- min ---- " + getMinStack.getMin());
         getMinStack.pop();
-        System.err.println("---- min ---- " + getMinStack.getMin());
+        logger.info("---- min ---- " + getMinStack.getMin());
         getMinStack.pop();
-        System.err.println("---- min ---- " + getMinStack.getMin());
+        logger.info("---- min ---- " + getMinStack.getMin());
         getMinStack.pop();
-        System.err.println("---- min ---- " + getMinStack.getMin());
+        logger.info("---- min ---- " + getMinStack.getMin());
 
         logger.info("------------------ 结束 -----------------");
 

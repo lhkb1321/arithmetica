@@ -101,6 +101,8 @@ public class GetMinStack {
         GetMinStack getMinStack = new GetMinStack();
 
         getMinStack.push(1);
+
+        logger.info("---------------------------- 压栈开始 ------------------------------");
         logger.info("---- min ---- " + getMinStack.getMin());
         getMinStack.push(3);
         logger.info("---- min ---- " + getMinStack.getMin());
@@ -113,7 +115,7 @@ public class GetMinStack {
         getMinStack.push(-1);
         logger.info("---- min ---- " + getMinStack.getMin());
 
-        logger.info("---------------------------- 栈顶清除计划开始 ------------------------------");
+        logger.info("---------------------------- 弹栈开始 ------------------------------");
 
         getMinStack.pop();
         logger.info("---- min ---- " + getMinStack.getMin());
